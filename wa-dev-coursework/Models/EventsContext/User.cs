@@ -12,7 +12,7 @@ namespace wa_dev_coursework.Models.EventsContext
 
         // Properties
         [Key]
-        public Guid ID { get; set; }
+        public Guid UserID { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]
